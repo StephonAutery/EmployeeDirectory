@@ -1,5 +1,5 @@
 import React from 'react';
-import Role from './Role'
+import Role from './Role';
 class RoleList extends React.Component {
 
     render() {

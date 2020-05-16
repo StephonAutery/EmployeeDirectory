@@ -1,20 +1,24 @@
 import React, { Component } from 'react';
 import EmployeeList from './EmployeeList'
+import employees from '../data/employees.json';
+// import RoleList from './RoleList';
+import roles from '../data/roles.json';
 
 class Employees extends Component {
-    constructor() {
-        super();
-        this.state = { employees: [] };
-        fetch("employees.json")
-            .then(response => response.json())
-            .then(json => { this.setState({ employees: json }) })
-            .catch(error => console.log(error));
+    state = {
+        employees
+    }
+    roleState = {
+        roles
     }
 
     render() {
         return (
             <div>
-                <h2>employees: </h2><EmployeeList people={this.state.employees} />
+                <h2>employees: </h2><EmployeeList people={this.state.employees} titles={this.roleState.roles} />
+                <h2>----: </h2>
+                {this.roleState.roles[4].role}
+                <h2>----: </h2>
             </div>
         );
     }

@@ -1,58 +1,66 @@
 [
     {
+        "id": 1,
         "firstName": "Stephon",
         "lastName": "Autery",
-        "title": "owner",
         "hireYear": 0,
-        "rollNum": 0,
-        "salary": 0.00
+        "roleNum": 0,
+        "tasty": true
     },    
     {
+        "id": 2,
         "firstName": "Cate",
         "lastName": "Autery",
-        "title": "owner",
         "hireYear": 0,
-        "rollNum": 0,
-        "salary": 0.00
+        "roleNum": 0,
+        "tasty": true
     },
     {
+        "id": 3,
         "firstName": "John",
         "lastName": "Autery",
-        "title": "owner",
         "hireYear": 2,
-        "rollNum": 0,
-        "salary": 0.00
+        "roleNum": 0,
+        "tasty": true
     },
     {
+        "id": 4,
         "firstName": "Sussanah",
         "lastName": "Levy",
-        "title": "producer",
         "hireYear": 11,
-        "rollNum": 2,
-        "salary": 0.00
+        "roleNum": 2,
+        "tasty": true
     },
     {
+        "id": 5,
         "firstName": "Catherine",
         "lastName": "Gutman",
-        "title": "producer",
         "hireYear": 10,
-        "rollNum": 2,
-        "salary": 0.00
+        "roleNum": 2,
+        "tasty": true
     },
     {
+        "id": 6,
         "firstName": "Cleo",
         "lastName": "Autery",
-        "title": "queen",
         "hireYear": 8,
-        "rollNum": 6,
-        "salary": 0.00
+        "roleNum": 6,
+        "tasty": true
     },
     {
+        "id": 7,
         "firstName": "Maxy",
         "lastName": "Autery",
-        "title": "fuzzy",
         "hireYear": 11,
-        "rollNum": 6,
-        "salary": 0.00
+        "roleNum": 6,
+        "tasty": true
+    },
+    {
+        "id": 8,
+        "firstName": "Penda",
+        "lastName": "Autery",
+        "hireYear": 0,
+        "roleNum": 6,
+        "tasty": true
     }
 ]

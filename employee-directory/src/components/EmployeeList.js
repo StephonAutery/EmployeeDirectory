@@ -5,7 +5,7 @@ class EmployeeList extends React.Component {
     render() {
         let employees = [];
         for (let employee of this.props.people) {
-            employees.push(<Employee people={employee} key={employee.id} />);
+            employees.push(<Employee people={employee} key={employee.id} role={this.props.titles[3].role} />);
         }
         return (
             <ul>{employees} </ul>

@@ -7,8 +7,7 @@ class Role extends Component {
           <h4>
           {this.props.titles.role} | 
           {this.props.titles.salary} | 
-          {this.props.titles.rollNum}</h4>
-         
+          {this.props.titles.roleNum}</h4>
         </li>)
       }
 }
