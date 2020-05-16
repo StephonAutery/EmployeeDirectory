@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import EmployeeList from './EmployeeList'
-import Rolls from './Rolls'
 
-class Employees extends React.Component {
+class Employees extends Component {
     constructor() {
         super();
         this.state = { employees: [] };
@@ -10,27 +9,12 @@ class Employees extends React.Component {
             .then(response => response.json())
             .then(json => { this.setState({ employees: json }) })
             .catch(error => console.log(error));
-        fetch("rolls.json")
-            .then(response => response.json())
-            .then(json => { this.setState({ rolls: json }) })
-            .catch(error => console.log(error));
     }
 
-    select(employeeCode) {
-        let employeeList = this.state.employees.map(function (e) {
-            if (e.code === employeeCode) {
-                e.selected = (!e.selected);
-            }
-            return e;
-        });
-        this.setState({ employees: employeeList });
-    }
     render() {
-        // {console.log(this.state.employees);}
         return (
             <div>
-                <h2>employees: </h2><EmployeeList people={this.state.employees} selectHandler={this.select.bind(this)} />
-                <Rolls people={this.state.employees} selectHandler={this.select.bind(this)} />
+                <h2>employees: </h2><EmployeeList people={this.state.employees} />
             </div>
         );
     }
