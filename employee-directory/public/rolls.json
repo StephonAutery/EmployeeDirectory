@@ -1,0 +1,47 @@
+[
+    {
+        "roll": "owner",
+        "salary": 0.00,
+        "rollNum": 0
+    },
+    {
+        "roll": "writer",
+        "salary": 10000.00,
+        "rollNum": 1
+    },
+    {
+        "roll": "producer",
+        "salary": 30000.00,
+        "rollNum": 2
+    },
+    {
+        "roll": "director",
+        "salary": 20000.00,
+        "rollNum": 3
+    },
+    {
+        "roll": "cinematographer",
+        "salary": 20000.00,
+        "rollNum": 4
+    },
+    {
+        "roll": "audioTech",
+        "salary": 10000.00,
+        "rollNum": 5
+    },
+    {
+        "roll": "lightingTech",
+        "salary": 10000.00,
+        "rollNum": 6
+    },
+    {
+        "roll": "actor",
+        "salary": 100000.00,
+        "rollNum": 7
+    },
+    {
+        "roll": "puppy",
+        "salary": 0.00,
+        "rollNum": 8
+    }
+]

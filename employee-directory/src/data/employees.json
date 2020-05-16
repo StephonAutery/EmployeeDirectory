@@ -1,0 +1,58 @@
+[
+    {
+        "firstName": "Stephon",
+        "lastName": "Autery",
+        "title": "owner",
+        "hireYear": 0,
+        "rollNum": 0,
+        "salary": 0.00
+    },    
+    {
+        "firstName": "Cate",
+        "lastName": "Autery",
+        "title": "owner",
+        "hireYear": 0,
+        "rollNum": 0,
+        "salary": 0.00
+    },
+    {
+        "firstName": "John",
+        "lastName": "Autery",
+        "title": "owner",
+        "hireYear": 2,
+        "rollNum": 0,
+        "salary": 0.00
+    },
+    {
+        "firstName": "Sussanah",
+        "lastName": "Levy",
+        "title": "producer",
+        "hireYear": 11,
+        "rollNum": 2,
+        "salary": 0.00
+    },
+    {
+        "firstName": "Catherine",
+        "lastName": "Gutman",
+        "title": "producer",
+        "hireYear": 10,
+        "rollNum": 2,
+        "salary": 0.00
+    },
+    {
+        "firstName": "Cleo",
+        "lastName": "Autery",
+        "title": "queen",
+        "hireYear": 8,
+        "rollNum": 6,
+        "salary": 0.00
+    },
+    {
+        "firstName": "Maxy",
+        "lastName": "Autery",
+        "title": "fuzzy",
+        "hireYear": 11,
+        "rollNum": 6,
+        "salary": 0.00
+    }
+]
