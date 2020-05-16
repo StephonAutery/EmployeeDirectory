@@ -1,5 +1,6 @@
 import React from 'react';
 import EmployeeList from './EmployeeList'
+import Rolls from './Rolls'
 
 class Employees extends React.Component {
     constructor() {
@@ -26,7 +27,12 @@ class Employees extends React.Component {
     }
     render() {
         // {console.log(this.state.employees);}
-        return <div><h2>employees..: </h2><EmployeeList people={this.state.employees} selectHandler={this.select.bind(this)} /></div>;
+        return (
+            <div>
+                <h2>employees: </h2><EmployeeList people={this.state.employees} selectHandler={this.select.bind(this)} />
+                <Rolls people={this.state.employees} selectHandler={this.select.bind(this)} />
+            </div>
+        );
     }
 }
 
