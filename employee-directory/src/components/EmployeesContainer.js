@@ -11,9 +11,23 @@ import roles from '../data/roles.json';
 class EmployeesContainer extends Component {
   state = {
     search: "",
-    employees,
-    roles
+    name: "",
+    employees: employees,
+    roles: roles,
+    searching: false
   };
+
+  componentDidUpdate() {
+    if (this.state.search === "" && this.state.searching) {
+      this.setState({
+        employees: employees,
+        searching: false
+      })
+    }
+    else if (this.state.searching) {
+      this.filterEmployees(this.state.search, employees);
+    }
+  }
 
   filterEmployees = (name, employee) => {
     let employeesFilterd = [];
@@ -23,7 +37,7 @@ class EmployeesContainer extends Component {
     }
 
     this.setState({
-      search: "",
+      searching: false,
       employees: employeesFilterd
     })
   };
@@ -42,6 +56,7 @@ class EmployeesContainer extends Component {
     const value = event.target.value;
     const name = event.target.name;
     this.setState({
+      searching: true,
       [name]: value
     });
   };
