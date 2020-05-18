@@ -53,6 +53,11 @@ class EmployeesContainer extends Component {
     }
   };
 
+  removeEmployee = id => {
+    const employees = this.state.employees.filter(employee => employee.id !== id);
+    this.setState({ employees });
+  };
+  
   render() {
     return (
       <Container>
@@ -67,11 +72,11 @@ class EmployeesContainer extends Component {
               />
             </Card>
           </Col>
-
           <Col size="md-8">
             <Card heading={"employees"} >
               {this.state.employees.map(employee => (
                 <EmployeesList
+                  removeEmployee={this.removeEmployee}
                   id={employee.id}
                   key={employee.id}
                   firstName={employee.firstName}
