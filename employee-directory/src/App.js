@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Employees from './components/Employees'
 import Roles from './components/Roles';
-import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 
 class App extends Component {

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import EmployeeList from './EmployeeList'
 import employees from '../data/employees.json';
-// import RoleList from './RoleList';
 import roles from '../data/roles.json';
 
 class Employees extends Component {

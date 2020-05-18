@@ -1,7 +1,7 @@
 import React from 'react';
 import Employee from './Employee'
-class EmployeeList extends React.Component {
 
+class EmployeeList extends React.Component {
     render() {
         let employees = [];
         for (let employee of this.props.people) {
