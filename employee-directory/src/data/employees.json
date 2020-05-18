@@ -5,31 +5,7 @@
         "lastName": "Autery",
         "hireYear": 0,
         "roleNum": 0,
-        "tasty": true
-    },    
-    {
-        "id": 2,
-        "firstName": "Cate",
-        "lastName": "Autery",
-        "hireYear": 0,
-        "roleNum": 0,
-        "tasty": true
-    },
-    {
-        "id": 3,
-        "firstName": "John",
-        "lastName": "Autery",
-        "hireYear": 2,
-        "roleNum": 0,
-        "tasty": true
-    },
-    {
-        "id": 4,
-        "firstName": "Sussanah",
-        "lastName": "Levy",
-        "hireYear": 11,
-        "roleNum": 2,
-        "tasty": true
+        "tasty": "true"
     },
     {
         "id": 5,
@@ -37,30 +13,78 @@
         "lastName": "Gutman",
         "hireYear": 10,
         "roleNum": 2,
-        "tasty": true
+        "tasty": "true"
     },
     {
         "id": 6,
         "firstName": "Cleo",
         "lastName": "Autery",
         "hireYear": 8,
-        "roleNum": 6,
-        "tasty": true
-    },
-    {
-        "id": 7,
-        "firstName": "Maxy",
-        "lastName": "Autery",
-        "hireYear": 11,
-        "roleNum": 6,
-        "tasty": true
+        "roleNum": 8,
+        "tasty": "true"
     },
     {
         "id": 8,
         "firstName": "Penda",
         "lastName": "Autery",
         "hireYear": 0,
-        "roleNum": 6,
-        "tasty": true
+        "roleNum": 8,
+        "tasty": "true"
+    },
+    {
+        "id": 4,
+        "firstName": "Sussanah",
+        "lastName": "Levy",
+        "hireYear": 11,
+        "roleNum": 2,
+        "tasty": "true"
+    },
+    {
+        "id": 3,
+        "firstName": "John",
+        "lastName": "Autery",
+        "hireYear": 2,
+        "roleNum": 0,
+        "tasty": "true"
+    },
+    {
+        "id": 9,
+        "firstName": "Eric",
+        "lastName": "Schreiber",
+        "hireYear": 0,
+        "roleNum": 2,
+        "tasty": "true"
+    },
+    {
+        "id": 7,
+        "firstName": "Maxy",
+        "lastName": "Autery",
+        "hireYear": 11,
+        "roleNum": 8,
+        "tasty": "true"
+    },
+    {
+        "id": 10,
+        "firstName": "Noble",
+        "lastName": "Hendrix",
+        "hireYear": 0,
+        "roleNum": 2,
+        "tasty": "true"
+    },    
+    {
+        "id": 2,
+        "firstName": "Cate",
+        "lastName": "Autery",
+        "hireYear": 0,
+        "roleNum": 0,
+        "tasty": "true"
+    },
+    {
+        "id": 11,
+        "firstName": "Gregory",
+        "lastName": "Allen",
+        "hireYear": 0,
+        "roleNum": 2,
+        "tasty": "true"
     }
 ]
