@@ -1,6 +1,6 @@
 {
+  "homepage": "https://stephonautery.github.io/EmployeeDirectory/",
   "name": "employee-directory",
-  "homepage": "https://github.com/StephonAutery/EmployeeDirectory",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },
-  
+
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
