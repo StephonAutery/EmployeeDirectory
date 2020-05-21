@@ -38,8 +38,6 @@ Node.js
 
 ## contributors
 - Stephon Autery
-- Hannah Folk
-- Kerwin Hy
 
 ## Stephon Autery
 ![StephonAutery](/public/images/stephon-headshot-garden.jpg)
