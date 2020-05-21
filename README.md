@@ -32,11 +32,9 @@ Express\
 React\
 Node.js
 
-## Employee Directory on GitHub
-[Employee Directory on GitHub](https://github.com/StephonAutery/EmployeeDirectory)
+## [Employee Directory on GitHub](https://github.com/StephonAutery/EmployeeDirectory)
 
-## Employee Directory deployed app on GitHub
-[Employee Directory on GitHub](https://github.com/StephonAutery/EmployeeDirectory)
+## [Employee Directory deployeed App on GitHub](https://github.com/StephonAutery/EmployeeDirectory)
 
 ## contributors
 - Stephon Autery
