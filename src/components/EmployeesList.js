@@ -5,24 +5,16 @@ function Employees(props) {
         <div className="card">
 
             <div className="content">
-                <ul>
-                    <li>
-                        <strong>name: </strong>{props.firstName} {props.lastName}
-                    </li>
-                    <li>
-                        <strong>id: </strong>{props.id}
-                    </li>
-                    <li>
-                        <strong>role number: </strong>{props.roleNum}
-                    </li>
-                    <li>
-                        <strong>role: </strong>{props.role}
-                    </li>
-                    <li>
-                        <strong>tasty: </strong>{props.tasty}
-                    </li>
+                <div>
+                <strong>name: </strong>{props.firstName} {props.lastName}&nbsp;|&nbsp; 
+                {/* <strong>id: </strong>{props.id} */}
+                {/* <strong>role number: </strong>{props.roleNum} */}
+                <strong>role: </strong>{props.role}
+                {/* <strong>tasty: </strong>{props.tasty} */}
+                </div>
+                <div className="p-2">
                     <button onClick={() => props.removeEmployee(props.id)} className="remove btn btn-danger">fire me</button>
-                </ul>
+                </div>
             </div>
 
         </div>
