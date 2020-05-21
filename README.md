@@ -7,7 +7,7 @@ An employee directory with React. The user is able to view their entire employee
 ## site picture
 ![Site](/public/images/employee-directory-image.PNG)
 
-
+github.com:StephonAutery/EmployeeDirectory.git
 ## code Snippet
 This is a REACT application. Below is the code that filters users by searching the entire employee name for the search string entered. Search results are immediately returned to the screen with each key press by use of the .setState method of the react component containing this code.
 
@@ -46,6 +46,6 @@ Node.js
 ## Stephon Autery
 ![StephonAutery](/public/images/stephon-headshot-garden.jpg)
 
-[Stephon Autery on GitHub](https://github.com/StephonAutery/a-fitness-tracker)
+[Stephon Autery on GitHub](https://github.com/StephonAutery)
 
-[Stephon Autery on LinkedIn](https://github.com/StephonAutery/a-fitness-tracker)
+[Stephon Autery on LinkedIn](https://www.linkedin.com/in/stephon-a-1bb575198/)
