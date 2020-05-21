@@ -34,7 +34,7 @@ Node.js
 
 ## [Employee Directory on GitHub](https://github.com/StephonAutery/EmployeeDirectory)
 
-## [Employee Directory deployeed App](https://github.com/StephonAutery/EmployeeDirectory)
+## [Employee Directory deployed App](https://github.com/StephonAutery/EmployeeDirectory)
 
 ## contributors
 - Stephon Autery
